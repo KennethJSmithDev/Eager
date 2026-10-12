@@ -8,7 +8,7 @@ Eager aims to give people control over their AI's personality, continuity, and c
 
 ## Current Concept Direction
 
-**Eager is a user-directed AI interaction and capability harness, guided by EGEHAR.** It is designed to maintain a person's preferred way of interacting with an AI while the underlying model, conversation, device, or execution provider changes.
+**Eager is a user-directed AI interaction and capability harness.** It is designed to maintain a person's preferred way of interacting with an AI while the underlying model, conversation, device, or execution provider changes.
 
 It is **more than a saved prompt or a task-specific skill**. The intention is to make persona, continuity, capabilities, and authority first-class parts of the user experience:
 
@@ -23,12 +23,6 @@ It is **more than a saved prompt or a task-specific skill**. The intention is to
 ### Practical limits
 
 Eager cannot guarantee identical outputs or personalities across different AI models, updates, or host products. Its goal is to make the chosen interaction contract portable, testable, and easier to recover, while respecting each provider's actual capabilities and safety boundaries.
-
-### Architecture direction
-
-Eager is the **agent harness**, not a new foundation model and not a game engine. [Hermes Agent](https://github.com/NousResearch/hermes-agent) is the current baseline under evaluation for its agent runtime, skills, MCP, memory, and plugin architecture. EGEHAR supplies the evidence, representation, and authority methodology; additional capabilities such as REA or game-development providers remain optional.
-
-**[Eager Engine Prototype](https://github.com/KennethJSmithDev/EagerEnginePrototype) is a separate project** for an independently developed engine planned for future source-available distribution. Its implementation and licensing decisions are not governed by this harness README.
 
 ## Project Status
 
